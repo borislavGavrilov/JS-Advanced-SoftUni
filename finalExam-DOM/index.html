@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Eggsplore Art</title>
+</head>
+
+<body>
+
+    <section id="header">
+        <h1>🐰Eggsplore Art🐰</h1>
+    </section>
+
+    <div id="wrapper">
+
+        <section id="append-egg">
+            <div class="container">              
+                <h1>Create Your Egg</h1>
+                
+                <div class="container-text">
+                    <form action="">
+                        <label for="egg-type">Egg Type:</label>
+                        <input type="text" id="egg-type" name="egg-type">
+
+                        <label for="size">Size:</label>
+                        <input type="text" id="size" name="size" >
+
+                        <label for="base-color">Base Color:</label>
+                        <input type="text" id="base-color" name="base-color">
+
+                        <label for="pattern">Pattern:</label>
+                        <input type="text" id="pattern" name="pattern" >
+
+                        <label for="decorations">Decorations:</label>
+                        <input type="text" id="decorations" name="decorations">
+                        <button id="create-btn" type="submit">Create</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="egg-info">
+            <div class="info-container">
+                <div class="container"> 
+                <h1>Review</h1>
+                <ul class="review-list"></ul>
+            </div>
+            </div>
+        </section>
+
+        <section id="confirm-order">
+            <div class="confirm-container">
+                <div class="container"> 
+                <h1>Confirm Your Design</h1>
+                <ul class="confirm-list"></ul>
+            </div>
+            </div>
+        </section>
+    </div>
+    <section id="complete-order">
+        <img id="complete-img" src="./static/img/bunny.webp" alt="img">
+        <p id="complete-text"></p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
